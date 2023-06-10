@@ -8,7 +8,7 @@ const InteractHeader = () => {
           <div className="row align-items-center">
             <div className="col-lg-2 col-md-5 col-sm-4 col-5">
               <div className="logo transition-4">
-                <a href="index-2.html">
+                <a href="/">
                   <img
                     src="/img/logo/logo.png"
                     className="transition-4"
@@ -32,7 +32,7 @@ const InteractHeader = () => {
                   <i className="fas fa-search"></i>
                 </a>
                 <a
-                  href="#"
+                  href="/contact-us"
                   className="btn btn-round d-none d-sm-block blob-small"
                 >
                   CONTACT US
