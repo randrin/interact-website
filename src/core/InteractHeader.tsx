@@ -3,7 +3,42 @@ import React from "react";
 const InteractHeader = () => {
   return (
     <>
-      <header className="transperant-head transition-4 ">
+      <section className="top-header d-none d-md-block">
+        <div className="container">
+          <div className="row d-flex  align-items-center">
+            <div className="col-lg-8 col-md-8">
+              <div className="left-head-top d-flex">
+                <div className="contact-head mail flex-center d-none d-sm-flex">
+                  <a className="black f-500" href="mailto:info@example.com">
+                    <i className="far fa-envelope green mr-10"></i>
+                    info@example.com
+                  </a>
+                </div>
+                <div className="contact-head phone flex-center d-none d-sm-flex">
+                  <a className="black f-500" href="tel:1234567890">
+                    <i className="fas fa-phone green mr-15  mr-10"></i>+1 234
+                    567 890
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-4 col-md-4">
+              <div className="icon-links icon-links-top d-flex align-items-center">
+                <div className="language d-none d-md-flex pl-30 pt-00 pb-00 align-items-center">
+                  <i className="fas fa-globe-americas mr-5"></i>
+                  <select className="form-control lan-select" id="sel1">
+                    <option>ENG</option>
+                    <option>CA</option>
+                    <option>UK</option>
+                    <option>GE</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <header className="transperant-head transition-4 pt-50">
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-2 col-md-5 col-sm-4 col-5">
